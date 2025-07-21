@@ -1,0 +1,13 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Shadow Layer -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#26504F4F" /> <!-- Semi-transparent shadow -->
+            <corners android:radius="10dp" />
+        </shape>
+    </item>
+
+
+
+</layer-list>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1055937867908",
+    "project_id": "fir-uploaddata-df64e",
+    "storage_bucket": "fir-uploaddata-df64e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1055937867908:android:b1a587c7670fb879dd92d1",
+        "android_client_info": {
+          "package_name": "com.example.firebaseuploaddata"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLKkGCZNGSWfKiq9e9A-_R3q2DtOs0WJo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_margin="10dp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="15dp"
+        android:layout_margin="5dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="123dp"
+                android:layout_height="100dp"
+                android:scaleType="fitXY"
+                android:layout_margin="10dp"
+                android:padding="4dp">
+
+            </ImageView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/TV_Title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/imageView"
+                    android:text="Apple MacBook Air Core i5 5th Gen - (8GB/128GB SSD/Mac OS Sierra)"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Light.Widget.PopupMenu.Small" />
+
+                <TextView
+                    android:id="@+id/TV_Descrip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/TV_Title"
+                    android:layout_toRightOf="@id/imageView"
+                    android:text="13.3 Inch, 256GB" />
+
+                <TextView
+                    android:id="@+id/TV_Rating"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/TV_Descrip"
+                    android:layout_toRightOf="@+id/imageView"
+                    android:background="#F44336"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:text="4.7"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    android:textColor="#fff"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/TV_Price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/TV_Rating"
+                    android:layout_toRightOf="@+id/imageView"
+                    android:text="INR 56,900"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Light.Widget.PopupMenu.Small"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>
