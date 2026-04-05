@@ -16,7 +16,7 @@
         android:theme="@style/Theme.CurrentLocation"
         tools:targetApi="31">
         <meta-data android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyCZnYYB9OIZI8VuXEDvp0Zv9Cmo9LeUbVQ"/>
+            android:value="Google_API_Key"/>
         <activity
             android:name=".MainActivity"
             android:exported="true">
