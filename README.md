@@ -17,7 +17,6 @@ Each mini-project demonstrates core Android concepts such as:
 | Project Name         | Description                                                                 |
 |----------------------|-----------------------------------------------------------------------------|
 | LoginApp             | Simple login and registration UI using Intents                             |
-| CalculatorApp        | Basic calculator handling arithmetic operations                            |
 | SplashScreenApp      | App with a timed splash screen and transition to main activity              |
 | ToDoListApp          | A task management app using ListView and SharedPreferences                  |
 | RecyclerViewApp      | Demonstrates use of RecyclerView to display lists dynamically               |
